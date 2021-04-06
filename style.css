@@ -1,0 +1,56 @@
+html{
+  background-color: rgb(19, 18, 18);
+  font-family: monospace;
+}
+
+button{
+  color: white;
+  background-color: rgb(91, 248, 91);
+  width: auto;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 9px rgb(49, 49, 49);
+  font-size: 3em;
+}
+
+button:hover {
+  background-color: rgba(91, 248, 91, 0.637);
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+div {
+  margin: auto;
+  width: 50em;
+  padding: 5em;
+  font-family: monospace;
+}
+
+div.out{
+  background-color: white;
+}
+
+p.res{
+  width: fit-content;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px white;
+  font-size: 3em;
+  box-shadow: 0 9px rgb(49, 49, 49);
+}
+
+label{
+  color: white;
+  font-size: 3em;
+}
+
+input{
+  box-shadow: 0 9px rgb(49, 49, 49);
+  width: inherit;
+  font-size: 3em;
+  font-family: monospace;
+}
